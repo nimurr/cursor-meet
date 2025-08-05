@@ -1,0 +1,30 @@
+{
+  "name": "google-meet-backend",
+  "version": "1.0.0",
+  "description": "Backend for Google Meet clone",
+  "main": "server.js",
+  "scripts": {
+    "start": "node init && node server.js",
+    "dev": "node init && nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "express",
+    "socket.io",
+    "webrtc"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
